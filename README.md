@@ -1,7 +1,6 @@
 # Spotify Tracks Analysis
 
-
-![dashboard]
+![dashboard](https://github.com/bs021558/spotify-songs-data-processing/assets/36155664/019da1a4-1c54-4818-b7b2-c78980df3b5e)
 
 ### Introduction
 
@@ -13,7 +12,7 @@ A procject that data cleasing and ELT with Redshift and visualize with superset.
 
 ### Architecture
 
-![architecture]
+![architecture](https://github.com/bs021558/spotify-songs-data-processing/assets/36155664/4173a446-1a85-4e67-82e7-4a3c23217f25)
 
 ### Data Cleansing Strategies
 
