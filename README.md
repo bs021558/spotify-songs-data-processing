@@ -4,7 +4,7 @@
 
 ### Introduction
 
-A procject that data cleasing and ELT with Redshift and visualize with superset. For the dataset “spotify_songs.csv” was used.
+A project that data cleasing and ELT with Redshift and visualize with superset. For the dataset “spotify_songs.csv” was used.
 
 ### Dataset
 
