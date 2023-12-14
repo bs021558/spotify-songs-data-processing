@@ -32,7 +32,7 @@ A project that data cleasing and ELT with Redshift and visualize with superset. 
     
 3. Remove commas in data
     
-    “spotify_songs.csv” has values containing commas(,) in itself. However, when Redshift handles it as “external table” in S3 bucket, I could not find the way to pass the commas in double quotation using delimiter. I’ve tried to use openCSVSerde but another problem had happened with “\”. So I decided to simply remove them.
+    “spotify_songs.csv” has values containing commas(,) in itselves. However, when Redshift handles it as “external table” in S3 bucket, I could not find the way to pass the commas in double quotation using delimiter. I’ve tried to use openCSVSerde but another problem had happened with “\”. So I decided to simply remove them.
     
     ```python
     df = df.applymap(lambda x: str(x).replace(',', ''))
